@@ -1,0 +1,10 @@
+﻿@model Pokemon
+
+<table class="moveList">
+    @foreach(var move in @Model.MoveList)
+    {
+        <tr>
+            <td>@move.MoveName</td>
+        </tr>
+    }
+</table>

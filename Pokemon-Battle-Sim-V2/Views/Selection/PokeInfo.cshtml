@@ -1,0 +1,19 @@
+﻿@model Pokemon
+
+<h2>Insert Pokemon Data</h2>
+
+<form asp-action="PokeInfo" method="post" class="player1">
+    <div class="form-group">
+        <label asp-for="Name" class="control-label"></label>
+        <input asp-for="Name" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="Level" class="control-label"></label>
+        <input asp-for="Level" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="Nature" class="control-label"></label>
+        <input asp-for="Nature" class="form-control" />
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>

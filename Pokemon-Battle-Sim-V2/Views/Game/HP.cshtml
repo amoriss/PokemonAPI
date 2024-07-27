@@ -1,0 +1,8 @@
+﻿@model Pokemon
+
+@{
+    var totalHP = @Model.StatList[0];
+    var currentHP = @Model.StatList[0];
+}
+
+<h5>@currentHP / @totalHP</h5>
